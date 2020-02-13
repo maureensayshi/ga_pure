@@ -20,3 +20,7 @@ document.getElementById('btn3').addEventListener('click', ()=>{
 document.getElementById('btn4').addEventListener('click', ()=>{
     ga('send', 'event', 'nonInteraction', 'click', 'no effect to bounce rate');
 })
+document.getElementById('btn5').addEventListener('click', ()=>{
+    ga('set', 'dimension1', '123');
+    ga('send', 'pageview', '/level_1/');
+})
